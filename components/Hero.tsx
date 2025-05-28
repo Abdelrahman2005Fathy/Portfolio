@@ -59,11 +59,11 @@ const Hero = () => {
       </div>
       <div className="mt-10 lg:mt-0 mr-[400px]">
         <Image
-          src="/personal_image.webp"
+          src="/personal_image.svg"
           alt="Personal Image"
-          width={330}
-          height={380}
-          className="border-4 border-violet-700 rounded-[50%] absolute z-10 lg:mt-[-350px] lg:ml-[800px] sm:ml-[10px] sm:mt-[-930px] sm:w-[200px] lg:w-[350px]"
+          width={480}
+          height={480}
+          className="border-4 object-cover border-violet-700 rounded-[50%] absolute z-10 lg:mt-[-350px] lg:ml-[800px] sm:ml-[10px] sm:mt-[-930px] sm:w-[200px] lg:w-[350px] h-[350px]"
         />
       </div>
     </div>
